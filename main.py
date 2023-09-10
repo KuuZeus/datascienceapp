@@ -4,45 +4,6 @@ import matplotlib.pyplot as plt
 import altair as alt
 import plotly.express as px
 
-
-# Title
-# st.title('Users Database')
-#
-# add_sidebar = st.sidebar.selectbox('Menu',('Biodata','Employement details','Health info'))
-#
-# if add_sidebar=='Biodata':
-#     first_name, last_name, sex, age, marriage_status = st.columns(5, gap='small')
-#
-#     # cols = ['first_name', 'last_name', 'sex', 'age', 'marriage_status']
-#     with first_name :
-#             st.header('first_name')
-#             st.text_input('first_name')
-#     with last_name:
-#         st.header('last_name')
-#         st.text_input('last_name')
-#     with sex:
-#         st.header('sex')
-#         st.selectbox('sex', ('Male', 'Female'))
-#     with age:
-#         st.header('age')
-#         st.text_input('age')
-#     with marriage_status:
-#         st.header('marriage_status')
-#         st.selectbox('marriage_status',('Married', 'Single'))
-#
-# if add_sidebar =='Health info':
-#     Hypertension, Diabetes, Alcohol, Smoking = st.columns(4) ## default gaps is small
-#     with Hypertension:
-#         st.selectbox('Hypertension',('Yes','No') )
-#     with Diabetes:
-#         st.selectbox('Diabetes', ('Yes','No') )
-#     with Alcohol:
-#         # st.write('How did you drink')
-#         quantity= st.text_input('Quantity of alcohol in oz')
-#         st.metric(label='alocohol per week', value= quantity, delta='12 oz')
-
-
-
 ####@@@@@@ Malaria Data analysis #######
 st.header('Global Under 5 Mortality due Malaria Analysis')
 
